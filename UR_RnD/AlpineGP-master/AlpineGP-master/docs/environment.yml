@@ -1,0 +1,31 @@
+# copy from environment.yaml in project root
+name: readthedocs
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - gmsh
+  - jax
+  - jaxopt
+  - numpy
+  - pygmo
+  - python
+  - python-gmsh
+  - petsc4py
+  - jupyterlab
+  - trame
+  - ipywidgets
+  - scipy
+  - scikit-learn
+  - pyvista
+  - pygraphviz
+  - typeguard
+  - yaml
+  - pip:
+      - sphinx-rtd-theme
+      - myst-parser[linkify]
+      - sphinx>=3.2.1
+      - git+https://github.com/cpml-au/dctkit
+      - git+https://github.com/cpml-au/deap
+      - ray
+      - pygmsh
