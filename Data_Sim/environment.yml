@@ -1,0 +1,24 @@
+# manually install JAX, PyTorch-Geometric, Flax, pip install git+https://github.com/deepmind/jraph.git
+name: datasim
+channels:
+  - conda-forge
+dependencies:
+  - python
+  - pygmo
+  - box2d-py
+  - pygame
+  - gymnasium[box2d]
+  - pip
+  - pip:
+      - gymnasium
+      - jupyterlab
+      - matplotlib
+      - numpy
+      - swig
+      - torch
+      - torchvision
+      - scipy
+      - scikit-learn
+      - skorch
+      - jax
+      - jaxlib

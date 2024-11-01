@@ -1,0 +1,25 @@
+# manually install JAX, PyTorch-Geometric, Flax
+name: deeplearning
+channels:
+  - conda-forge
+dependencies:
+  - python
+  - pygmo
+  - box2d-py
+  - pygame
+  - jupyterlab
+  - gymnasium[box2d]
+  - pip
+  - pip:
+      - gymnasium
+      - jupyterlab
+      - matplotlib
+      - numpy
+      - swig
+      - torch
+      - torchvision
+      - scipy
+      - scikit-learn
+      - skorch
+      - pandas
+      - mlxtend
